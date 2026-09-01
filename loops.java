@@ -64,14 +64,26 @@ public class loops {
 //     default:
 //     System.out.println("Invalid Day");
 // }
-Scanner pc= new Scanner(System.in);
-System.out.println("Enter your number:");
-int N = pc.nextInt();
-int Number=1;
-while(Number<=N){
-    System.out.println(Number);
-    Number++;
+// Scanner pc= new Scanner(System.in);
+// System.out.println("Enter your number:");
+// int N = pc.nextInt();
+// int Number=1;
+// while(Number<=N){
+//     System.out.println(Number);
+//     Number++;
+// }
+Scanner Oc =new Scanner(System.in);
+System.out.println("enetr your number: ");
+int num=Oc.nextInt();
+int sum =0;
+int n=1;
+while(n<=num){
+System.out.println("Sum of first n natural number:"+n);
+sum=sum+n;
+n++;
 }
+
+
 
 } 
     
